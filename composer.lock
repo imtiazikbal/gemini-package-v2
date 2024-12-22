@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f60f8b6e279e6de64f92f6b9fb420141",
+    "content-hash": "4971efa592eec8085fec3c948d90b980",
     "packages": [
         {
             "name": "brick/math",
@@ -1053,6 +1053,47 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "imtiaz/gemini",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imtiazikbal/imtiaz-gemini.git",
+                "reference": "d23b323390cf06a6d5361ce2fc2bf444c248615e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imtiazikbal/imtiaz-gemini/zipball/d23b323390cf06a6d5361ce2fc2bf444c248615e",
+                "reference": "d23b323390cf06a6d5361ce2fc2bf444c248615e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^11.0",
+                "php": "^8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Imtiaz\\LaravelGemini\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "imtiazikbal",
+                    "email": "imtiaz.ikbal.com@gmail.com"
+                }
+            ],
+            "description": "A simple package for generating gemini links",
+            "support": {
+                "issues": "https://github.com/imtiazikbal/imtiaz-gemini/issues",
+                "source": "https://github.com/imtiazikbal/imtiaz-gemini/tree/v1.0.0"
+            },
+            "time": "2024-12-22T11:29:13+00:00"
         },
         {
             "name": "laravel/framework",

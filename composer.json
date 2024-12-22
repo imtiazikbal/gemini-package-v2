@@ -7,6 +7,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "imtiaz/gemini": "^1.0",
         "laravel/framework": "^11.31",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9"
@@ -30,7 +31,7 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Imtiaz\\LaravelGemini\\": "src/"
+            "Imtiaz\\LaravelGemini\\": "gemini/src/"
         }
     },
     "scripts": {

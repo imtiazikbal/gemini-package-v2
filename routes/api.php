@@ -7,4 +7,4 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-Route::post('/summarize',[App\Http\Controllers\api\GeminiController::class, 'summarizeDocument']);
+Route::post('/summarize',action: [App\Http\Controllers\api\GeminiController::class, 'summarizeDocument']);
